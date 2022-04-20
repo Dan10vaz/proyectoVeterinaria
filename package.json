@@ -1,0 +1,31 @@
+{
+  "name": "apv-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Aplicacion fullstack con MERN",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dan10vaz/apvMERN.git"
+  },
+  "author": "Daniel Vazquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dan10vaz/apvMERN/issues"
+  },
+  "homepage": "https://github.com/Dan10vaz/apvMERN#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
